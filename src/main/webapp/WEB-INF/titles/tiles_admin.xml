@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTDTiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="template_admin" template="/WEB-INF/views/templates/template_admin.jsp">
+    <put-attribute name="content" value=""/>
+    </definition>
+    <definition name="dashboard.index"  extends="template_uesr">
+        <put-attribute name="content" value="/WEB-INF/views/admin/dashboard/index.jsp"/>
+    </definition>
+
+
+
+</tiles-definitions>
